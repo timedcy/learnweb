@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--
+    * Author:         BeiYuu
+    -->
+    <meta charset="utf-8" />
+    <title>Blog | BeiYuu.com</title>
+    <meta name="generator" content="Jekyll" />
+    <meta name="author" content="BeiYuu" />
+    <meta name="description" content="BeiYuu's Blog" />
+    <link rel="stylesheet" href="/css/default.css" type="text/css" />
+    <link rel="alternate" type="application/atom+xml" title="Recent Entries" href="/atom.xml" />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <script type="text/javascript" src="http://beiyuu.com/js/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript">
+        var BYB = {};
+    </script>
+</head>
+<body>
+    <div id="head">
+    <div class='logo left'>
+        <a href="/" title="Home">BeiYuu.com</a>
+    </div>
+    <div id="header">
+        <div class="nav right">
+            <a href="/blog" title="Thoughts On Something">Blog</a>
+            <a href="/project" title="Projects Ongoing">Project</a>
+            <a href="/wiki" title="Wiki" >Wiki</a>
+            <a href="/about" title="About BeiYuu" >About</a>
+            <a href="/atom.xml" rel="feed" title="Subscribes The Feed" target="_blank">RSS</a>
+        </div><!-- .nav -->
+    </div><!-- #header -->
+</div><!-- #head -->
+<div id="content">
+    <div class="category">
+    <ul>
+    
+        <li>
+            <h2>
+                <a href="/buy-guitar">如何选择与购买吉他</a>
+            </h2>
+            <span>选择一把属于自己的吉他，并不是一件简单的事情，方方面面都需要注意到才会买到满意的吉他。</span>
+        </li>
+    
+        <li>
+            <h2>
+                <a href="/github-pages">使用Github Pages建独立博客</a>
+            </h2>
+            <span>Github本身就是不错的代码社区，他也提供了一些其他的服务，比如Github Pages，使用它可以很方便的建立自己的独立博客，并且免费。</span>
+        </li>
+    
+        <li>
+            <h2>
+                <a href="/why-blog">我为什么写博客？</a>
+            </h2>
+            <span>写博客这个这么古老的行为，还有必要拿出来说吗，我看有。</span>
+        </li>
+    
+    </ul>
+</div>
+
+
+<!-- .entry -->
+
+
+</div><!-- #content --> 
+<div id="footer">
+    <div class="copyright right">
+        
+        <p>Design by <a href="http://beiyuu.com/about" title="BeiYuu" target="_blank">BeiYuu</a> &copy; Copyright 2012</p>
+        
+    </div>
+</div><!-- #footer -->
+
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>-->
+    <script type="text/javascript">
+        BYB.includeScript = function(file,callback){
+            var _doc = document.getElementsByTagName('head')[0];
+            var js = document.createElement('script');
+            js.setAttribute('type', 'text/javascript');
+            js.setAttribute('src', file);
+            _doc.appendChild(js);
+
+            if (!/*@cc_on!@*/0) { //if not IE
+                //Firefox2、Firefox3、Safari3.1+、Opera9.6+ support js.onload
+                js.onload = function () {
+                    callback();
+                }
+            } else {
+                //IE6、IE7 support js.onreadystatechange
+                js.onreadystatechange = function () {
+                    if (js.readyState == 'loaded' || js.readyState == 'complete') {
+                        callback();
+                    }
+                }
+            }
+            return false;
+        }
+
+        //if(!window.jQuery){
+            //BYB.includeScript('http://beiyuu.com/js/jquery-1.7.1.min.js',BYB.readyFunction);
+        //}else{
+            //BYB.readyFunction();
+        //}
+    </script>
+
+    <!--*********************************************************-->
+    <!--********** 直接 Fork 代码的同学请注意一下这里 ***********-->
+
+    <!--********** 虽然我不太在意是否直接复用我的设计 ***********-->
+
+    <!--********** 也不太在意是否转载我的文章不写出处 ***********-->
+
+    <!--********** 但我还是希望你能理解我的第一篇博客 ***********-->
+
+    <!--********** 就算你全然无视我上面所说的这些话语 ***********-->
+
+    <!--********** 希望你也能把下面两行的统计代码删除 ***********-->
+    <!--*********************************************************-->
+
+<script type="text/javascript" src="http://js.tongji.linezing.com/2727758/tongji.js"></script>
+<noscript><a href="http://www.linezing.com"><img src="http://img.tongji.linezing.com/2727758/tongji.gif"/></a></noscript>
+</body>
+</html>
